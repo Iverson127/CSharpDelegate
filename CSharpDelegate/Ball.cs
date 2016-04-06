@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace CSharpDelegate1
 {
-    delegate void ballInPlayHandler(object sender, BallEventArgs e); // declare delegate (method 2)
+    //delegate void ballInPlayHandler(object sender, BallEventArgs e); // declare delegate (method 2)
     class Ball
     {
-        public event ballInPlayHandler ballEvent; // declare event (method 2)
-        //public event Action<object, BallEventArgs> ballEvent;
+        //public event ballInPlayHandler ballEvent; // declare event (method 2)
+        public event Action<object, BallEventArgs> ballEvent;
 
         public void BallInPlayFast()
         {
