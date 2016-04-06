@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CSharpDelegate
+namespace CSharpDelegate1
 {
     static class Program
     {

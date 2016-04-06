@@ -1,0 +1,1 @@
+C:\Users\user\Documents\GitHub\CSharpDelegate\CSharpDelegate\bin\Debug\CSharpDelegate.exe.config

@@ -1,1 +1,9 @@
 C:\Users\user\Documents\Visual Studio 2013\Projects\CSharpDelegate\CSharpDelegate\bin\Debug\CSharpDelegate.exe.config
+C:\Users\user\Documents\GitHub\CSharpDelegate\CSharpDelegate\bin\Debug\CSharpDelegate.exe.config
+C:\Users\user\Documents\GitHub\CSharpDelegate\CSharpDelegate\bin\Debug\CSharpDelegate.exe
+C:\Users\user\Documents\GitHub\CSharpDelegate\CSharpDelegate\bin\Debug\CSharpDelegate.pdb
+C:\Users\user\Documents\GitHub\CSharpDelegate\CSharpDelegate\obj\Debug\CSharpDelegate.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\CSharpDelegate\CSharpDelegate\obj\Debug\CSharpDelegate.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\CSharpDelegate\CSharpDelegate\obj\Debug\CSharpDelegate.csproj.GenerateResource.Cache
+C:\Users\user\Documents\GitHub\CSharpDelegate\CSharpDelegate\obj\Debug\CSharpDelegate.exe
+C:\Users\user\Documents\GitHub\CSharpDelegate\CSharpDelegate\obj\Debug\CSharpDelegate.pdb

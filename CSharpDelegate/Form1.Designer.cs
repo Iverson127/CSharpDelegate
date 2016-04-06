@@ -1,4 +1,4 @@
-﻿namespace CSharpDelegate
+﻿namespace CSharpDelegate1
 {
     partial class Form1
     {
@@ -28,12 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnFast = new System.Windows.Forms.Button();
+            this.btnSlow = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnFast
+            // 
+            this.btnFast.Location = new System.Drawing.Point(101, 66);
+            this.btnFast.Name = "btnFast";
+            this.btnFast.Size = new System.Drawing.Size(75, 23);
+            this.btnFast.TabIndex = 0;
+            this.btnFast.Text = "Fast";
+            this.btnFast.UseVisualStyleBackColor = true;
+            this.btnFast.Click += new System.EventHandler(this.btnFast_Click);
+            // 
+            // btnSlow
+            // 
+            this.btnSlow.Location = new System.Drawing.Point(101, 128);
+            this.btnSlow.Name = "btnSlow";
+            this.btnSlow.Size = new System.Drawing.Size(75, 23);
+            this.btnSlow.TabIndex = 1;
+            this.btnSlow.Text = "Slow";
+            this.btnSlow.UseVisualStyleBackColor = true;
+            this.btnSlow.Click += new System.EventHandler(this.btnSlow_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btnSlow);
+            this.Controls.Add(this.btnFast);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnFast;
+        private System.Windows.Forms.Button btnSlow;
     }
 }
 
