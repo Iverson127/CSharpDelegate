@@ -14,11 +14,15 @@ namespace CSharpDelegate1
         public void BallInPlayFast()
         {
             Debug.WriteLine("BallInPlayFast()");
+            if (ballEvent != null)
+                ballEvent(this, new BallEventArgs { Speed = 105, Height = 35 }); // rise event
         }
 
         public void BallInPlaySlow()
         {
             Debug.WriteLine("BallInPlaySlow()");
+            if (ballEvent != null)
+                ballEvent(this, new BallEventArgs { Speed = 105, Height = 35 }); // rise event
         }
     }
 }
