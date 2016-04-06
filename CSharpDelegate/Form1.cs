@@ -19,6 +19,8 @@ namespace CSharpDelegate1
             InitializeComponent();
 
             ball = new Ball();
+            PersonA a = new PersonA(ball);
+            PersonB b = new PersonB(ball);
         }
 
         private void btnFast_Click(object sender, EventArgs e)

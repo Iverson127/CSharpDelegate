@@ -7,9 +7,11 @@ using System.Threading.Tasks;
 
 namespace CSharpDelegate1
 {
+    delegate void ballInPlayHandler(object sender, BallEventArgs e); // declare delegate (method 2)
     class Ball
     {
-        public event Action<object, BallEventArgs> ballEvent;
+        public event ballInPlayHandler ballEvent; // declare event (method 2)
+        //public event Action<object, BallEventArgs> ballEvent;
 
         public void BallInPlayFast()
         {
@@ -22,7 +24,7 @@ namespace CSharpDelegate1
         {
             Debug.WriteLine("BallInPlaySlow()");
             if (ballEvent != null)
-                ballEvent(this, new BallEventArgs { Speed = 105, Height = 35 }); // rise event
+                ballEvent(this, new BallEventArgs { Speed = 75, Height = 20 });
         }
     }
 }
